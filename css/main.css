@@ -1,0 +1,43 @@
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+h1{
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+.header-bg{
+	background:white url(../img/s2.jpg) no-repeat center;
+	background-size: auto 100%;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.interest{
+	line-height: 1.8;
+}
+
+.date-title{
+	margin-bottom: 1.5rem;
+}
+.date{
+	margin-bottom: 0.6rem;
+}
+
+.name-title{
+	margin-bottom: 0.2rem;
+}
