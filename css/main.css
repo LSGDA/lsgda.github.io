@@ -37,3 +37,7 @@ h1{
 .name-title{
 	margin-bottom: 0.2rem;
 }
+
+.text-white-80{
+	color: rgba(255,255,255,.7)!important;
+}
