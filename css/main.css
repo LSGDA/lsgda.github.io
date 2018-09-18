@@ -41,3 +41,7 @@ h1{
 .text-white-80{
 	color: rgba(255,255,255,.7)!important;
 }
+
+.cmt{
+	text-decoration: underline;
+}
