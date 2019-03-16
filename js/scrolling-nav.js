@@ -20,6 +20,18 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  // Modal popup$(function () {
+  $('.keynote-link').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    // focus: '#username',
+    modal: true
+  });
+  $(document).on('click', '.portfolio-modal-dismiss', function(e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
