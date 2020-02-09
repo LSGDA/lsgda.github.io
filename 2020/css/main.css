@@ -7,7 +7,7 @@ header {
 }
 
 .banner{
-	background: rgba(0,0,0,.5)!important;
+	/*background: rgba(0,0,0,.5)!important;*/
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -31,10 +31,6 @@ h1{
 	font-weight: bold;
 }
 
-.header-bg{
-	background:white url(../img/s2.jpg) no-repeat center;
-	background-size: auto 100%;
-}
 
 .interest{
 	line-height: 1.8;
