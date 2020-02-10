@@ -6,6 +6,14 @@ header {
   background-size: auto 100%;
 }
 
+a{
+  color: #a22041;
+}
+
+a:hover{
+  color: #A23C54;
+}
+
 .banner{
 	/*background: rgba(0,0,0,.5)!important;*/
 	padding-top: 20px;
