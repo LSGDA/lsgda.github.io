@@ -1,9 +1,14 @@
 header {
-  padding: 154px 0 100px;
+  padding: 154px 100px;
+  
   background: url(../../img/tokyo.jpg) no-repeat;
   /*background-color: #a22041;*/
   background-position: center;
-  background-size: auto 100%;
+  /* background-size: auto 100%; */
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 a{
@@ -21,8 +26,6 @@ a:hover{
 }
 
 
-}
-
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
@@ -30,7 +33,7 @@ a:hover{
 }
 
 section {
-  padding: 150px 0;
+  padding: 0 0;
 }
 
 
@@ -39,9 +42,19 @@ h1{
 	font-weight: bold;
 }
 
+#myheader{
+  background: url(../../img/tokyo.jpg) no-repeat;
+}
+
+.multi-line {
+  white-space: normal; /* 允许多行显示 */
+  display: block; /* 设置为块级元素 */
+  text-align: center; /* 文本居中 */
+}
 
 .interest{
 	line-height: 1.8;
+  padding: 0;
 }
 
 .date-title{
