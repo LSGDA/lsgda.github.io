@@ -50,6 +50,7 @@
       <workItem from="1709022581789" duration="22000" />
       <workItem from="1709029975135" duration="607000" />
       <workItem from="1709266859160" duration="550000" />
+      <workItem from="1709886960391" duration="28000" />
     </task>
     <servers />
   </component>
@@ -62,6 +63,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
